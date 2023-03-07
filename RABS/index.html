@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap CDN link  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <!-- Bootstrap icon CDN  -->
+  <script src="script.js"></script>
+ 
+  <title>Sound Of Soul Kolte-Patil</title>
+</head>
+
+<body>
+  <!-- Login Modal -->
+  <div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+  
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Login to Sound Of Soul</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+  
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+          </form>
+        </div>
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-success" >Submit</button>
+
+        </div>
+  
+      </div>
+      
+    </div>
+  </div>
+
+  <!-- On Load Modal  -->
+  <div class="modal modal2 modal-dialog-centered" id="onLoadModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+  
+        <div class="modal-header">
+          <button type="button" class="btn-close onLoadModalclose"  data-bs-dismiss="modal2"></button>
+        </div>
+  
+        <div class="modal-body">
+          <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://rb.gy/yd2ytg" class="d-block w-100" alt="Image ">
+              </div>
+              <div class="carousel-item">
+                <img src="https://rb.gy/cki9sb" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://rb.gy/lmnas9" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev " type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+              <span class="visually-hidden ">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+       
+  
+      </div>
+      
+    </div>
+  </div> 
+     
+
+
+
+  <div class="container-fluid">
+
+    <!-- Header Navbar with login form modal -->
+    <div class="row">
+      <nav class="navbar navbar-expand-lg navbar-light  sticky-top ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="https://rb.gy/dtn5w4" alt="Left Logo" width="50" height="50"
+              class="d-inline-block align-text-top ">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center " id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link text-dark" aria-current="page" href="#">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" aria-current="page" href="#Highlights">HIGHLIGHTS</a>
+              </li>
+           
+              <li class="nav-item">
+                <a class="nav-link text-dark" aria-current="page" href="#Gallery">GALLERY</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" aria-current="page" href="#Location">LOCATION</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" aria-current="page" href="#" data-bs-toggle="modal"
+                  data-bs-target="#myModal">LOGIN</a>
+              </li>
+
+            </ul>
+          </div>
+
+        </div>
+      </nav>
+    </div>
+
+    <!-- Full Width Image  -->
+    <div class="row ">
+      <div class="col w-100 ">
+        <img src="https://cdn.propstory.com/campaigns/joyvillepunesp/63b27a747c832Banner-01.jpg" class="img w-100 "
+          alt="Responsive image">
+
+      </div>
+    </div>
+
+    <!-- Info  -->
+    <div class="row  mt-3">
+      <div class="col wow fadeInUp" data-wow-delay="0s"
+        style="visibility: visible; animation-delay: 0s; animation-name: fadeInUp;">
+        <figure> <img src="https://cdn.propstory.com/campaigns/joyvillepunesp/6343dbd9c4234locatiion.png"
+            desktopurl="https://cdn.propstory.com/campaigns/joyvillepunesp/6343dbd9c4234locatiion.png"
+            mobileurl="https://cdn.propstory.com/campaigns/joyvillepunesp/6343dbe247c0alocatiion.png" alt="Image">
+          <b></b>
+        </figure>
+        <h6>LOCATION</h6>
+        <span class="extra">Near Hinjawadi, Pune</span>
+      </div>
+      <div class="col wow fadeInUp" data-wow-delay="0.05s"
+        style="visibility: visible; animation-delay: 0.05s; animation-name: fadeInUp;">
+        <figure> <img src="https://cdn.propstory.com/campaigns/joyvillepunesp/6343dcc394ec5icon-benefits02.png"
+            desktopurl="https://cdn.propstory.com/campaigns/joyvillepunesp/6343dcc394ec5icon-benefits02.png"
+            mobileurl="https://cdn.propstory.com/campaigns/joyvillepunesp/6343dcc1a2c32icon-benefits02.png" alt="Image"
+            style="opacity: 1;"> <b></b> </figure>
+        <h6>TYPE</h6>
+        <span class="extra">Row Houses</span>
+      </div>
+      <div class="col wow fadeInUp" data-wow-delay="0.10s"
+        style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+        <figure> <img src="https://cdn.propstory.com/campaigns/joyvillepunesp/6343dcfbdd21eicon-benefits03.png"
+            desktopurl="https://cdn.propstory.com/campaigns/joyvillepunesp/6343dcfbdd21eicon-benefits03.png"
+            mobileurl="https://cdn.propstory.com/campaigns/joyvillepunesp/6343dd02b1bcbicon-benefits03.png" alt="Image">
+          <b></b>
+        </figure>
+        <h6>POSSESSION</h6>
+        <span class="extra">&nbsp;New Launch </span>
+
+      </div>
+      <div class="col wow fadeInUp" data-wow-delay="0.15s"
+        style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">
+        <figure> <img src="https://cdn.propstory.com/campaigns/joyvillepunesp/6343dd8899fa4money.png"
+            desktopurl="https://cdn.propstory.com/campaigns/joyvillepunesp/6343dd8899fa4money.png"
+            mobileurl="https://cdn.propstory.com/campaigns/joyvillepunesp/6343dd8e40f2fmoney.png" alt="Image"
+            style="opacity: 1;"> <b></b>
+        </figure>
+        <h6>PRICE</h6>
+        <span class="extra">2 Cr* Onwards</span>
+      </div>
+      <div class="col wow fadeInUp" data-wow-delay="0.15s"
+        style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">
+        <figure> <img src="https://cdn.propstory.com/campaigns/joyvillepunesp/6343dd59405a8icon-benefits04.png"
+            desktopurl="https://cdn.propstory.com/campaigns/joyvillepunesp/6343dd59405a8icon-benefits04.png"
+            mobileurl="https://cdn.propstory.com/campaigns/joyvillepunesp/6343dd55d8dccicon-benefits04.png" alt="Image"
+            style="opacity: 1;"> <b></b> </figure>
+        <h6>SIZE</h6>
+        <span class="extra">1700+ Sq. Ft. </span>
+      </div>
+      <div class="col wow fadeInUp" data-wow-delay="0.20s"
+        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+        <figure> <img src="https://cdn.propstory.com/campaigns/joyvillepunesp/6343ddc1b7f6cbedroom.png"
+            desktopurl="https://cdn.propstory.com/campaigns/joyvillepunesp/6343ddc1b7f6cbedroom.png"
+            mobileurl="https://cdn.propstory.com/campaigns/joyvillepunesp/6343ddc7ab2f5bedroom.png" alt="Image"
+            style="opacity: 1;">
+          <b></b>
+        </figure>
+        <h6>BEDROOMS</h6>
+        <span class="extra">Luxury 4 BHK Row Houses</span>
+      </div>
+    </div>
+
+    <!-- Highlights  -->
+    <div class="row featurette mt-5 " id="Highlights">
+      <div class="col-md-7 ">
+        <h2 class="featurette-heading fw-normal lh-1">Echoes of Excellence <span class="text-muted">
+          </span></h2>
+        <p class="lead">Standing tall on the profound philosophy of “Creation, not Construction”, Kolte-Patil is a
+          trusted developer of Pune’s massive real estate market. For over 3 decades, the company has been creating
+          residential landmarks that exude vitality and aesthetic appeal. The time has come to explore a new way of
+          living with an architectural marvel that is an abode for all lifestyle aspirations.
+        </p>
+      </div>
+      <div class="col-md-5 ">
+
+        <img src="https://cdn.propstory.com/magicpages/NAME/16iwl4kistlc61rlv9Echoes%20of%20Exellence_11zon.jpg"
+          style="opacity: 1;" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+          desktopurl="https://cdn.propstory.com/magicpages/NAME/16iwl4kistlc61rlv9Echoes%20of%20Exellence_11zon.jpg">
+      </div>
+      <div class="row featurette mt-5">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading fw-normal lh-1p-5"> Harmony of Hallmarks <span class="text-muted"></span></h2>
+          <dl style="list-style-type: style circle;">
+            <dt><span class="p-5">• 98 Exclusive row houses&nbsp;</span></dt>
+            <dt><span class="p-5">• 4 Bed configuration across 1700+ sq. ft.&nbsp;</span>
+            </dt>
+            <dt><span class="p-5">• G+2 structure with lift especially for
+                you&nbsp;</span></dt>
+            <dt><span class="p-5">• Exclusive frontyard &amp; backyard&nbsp;</span></dt>
+            <dt><span class="p-5">• Dedicated parking space in the frontyard&nbsp;</span>
+            </dt>
+            <dt><span class="p-5">• Premium indoor specifications&nbsp;</span></dt>
+            <dt><span class="p-5">• Opulent private top-terrace&nbsp;</span></dt>
+            <dt><span class="p-5">• Ultra-lavish family lounge with terrace&nbsp;</span>
+            </dt>
+            <dt><span class="p-5">• Myriad of affluent amenities</span></dt>
+
+
+          </dl>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img src="https://cdn.propstory.com/magicpages/NAME/16iwl4kistlc61rlv9Echoes%20of%20Exellence_11zon.jpg"
+            style="opacity: 1;" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+            desktopurl="https://cdn.propstory.com/magicpages/NAME/16iwl4kistlc61rlv9Echoes%20of%20Exellence_11zon.jpg">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Gallery Section  -->
+  <div class="container" id="Gallery">
+    <h2 class="text-center text-secondary">Gallery</h2>
+    <div class="row p-2">
+      <div class="col-md-3">
+        <img src="https://cdn.propstory.com/magicpages/NAME/16iwl4kistlc61v7xa2_11zon.jpg" class="img-fluid">
+      </div>
+      <div class="col-md-3">
+        <img src="https://cdn.propstory.com/magicpages/NAME/16iwl4kistlc61y05f6_11zon.jpg" class="img-fluid">
+      </div>
+      <div class="col-md-3">
+        <img src="https://cdn.propstory.com/magicpages/NAME/16iwl4kistlc61z11b4_11zon.jpg" class="img-fluid">
+      </div>
+      <div class="col-md-3">
+        <img src="https://cdn.propstory.com/magicpages/NAME/16iwl4kistlc6201635_11zon.jpg" class="img-fluid">
+      </div>
+    </div>
+    <div class="row p-2">
+      <div class="col-md-3">
+        <img src="https://cdn.propstory.com/campaigns/joyvillepunesp/63ad76ab32ba3Echoes%20of%20Exellence%20%284%29.png"
+          class="img-fluid">
+      </div>
+      <div class="col-md-3">
+        <img src="https://cdn.propstory.com/campaigns/joyvillepunesp/63ad76ef57c03Echoes%20of%20Exellence%20%285%29.png"
+          class="img-fluid">
+      </div>
+      <div class="col-md-3">
+        <img src="https://cdn.propstory.com/magicpages/NAME/16iwl4kistlc62126q8_11zon.jpg" class="img-fluid">
+      </div>
+      <div class="col-md-3">
+        <img src="https://cdn.propstory.com/magicpages/NAME/16iwl4kistlc621cwo3_11zon.jpg" class="img-fluid">
+      </div>
+    </div>
+  </div>
+
+  <!-- Google Map   -->
+  <div class=" p-5 w-100 h-100" id="Location">
+    <div class=" map-responsive  ">
+      <iframe class="w-100"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.418741173162!2d72.82443291538003!3d19.135252254901882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c9a1d96af0e7%3A0xbabf2aa05c036a8a!2sSagar%20City%2C%20Sahakar%20Road%2C%20Sahakar%20Nagar%2C%20Andheri%20West%2C%20Mumbai%2C%20Maharashtra%20400053!5e0!3m2!1sen!2sin!4v1646461179913!5m2!1sen!2sin"
+        style="border:0; height: 100%;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+
+
+  </div> 
+
+  <!-- fixed contact section  -->
+  <div class="row mt-3 ">
+    <div class="footer fixed-bottom bg-grey">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-right ">
+            <button type="button" class="btn  float-end">
+              <a href="https://api.whatsapp.com/send?phone=8657655887" target="_blank">
+                <img src="media/whatsapp.png" alt="wp icon">
+              </a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer  -->
+  <div class="container-fluid bg-dark">
+    <footer class="py-3 my-4 text-light">
+     
+      <p class="text-center">
+        <strong> Disclaimer:</strong> All art renderings, illustrations, photographs and pictures contained in this
+        brochure are an
+        artist's impression only and the same should not be considered as the final view of the final project. Standard
+        kitchen platform along with sink will be provided. Rest of the furniture and kitchen appliances are only for
+        representation purpose. Since the project is under evaluation, there is a possibility that there may be certain
+        changes in the project as presented in this advertisement. Amenities shown will be delivered phase wise. 
+      </p>
+      <p class="text-center text-light ">© 2021 Company, Inc</p>
+    </footer>
+  </div>
+
+</body>
+<script>
+  // On Load Function 
+  window.onload = function() {
+  var modal = document.getElementById("onLoadModal");
+  modal.style.display = "block"; // Display the modal
+  var closeBtn = modal.getElementsByClassName("onLoadModalclose")[0];
+  closeBtn.onclick = function() {
+    modal.style.display = "none"; // Hide the modal when the close button is clicked
+  }
+}
+
+</script>
+
+</html>
